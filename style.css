@@ -1,0 +1,82 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+.name-highlight{
+    color: coral;
+}
+.half{
+
+    width: 40%;
+    margin-left: 2%;
+    padding-left: 2%;
+
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg,coral, tomato);
+    padding: 10px 30px;
+    color: black;
+    border-radius: 20px;
+    font-weight: 700;
+}
+img{
+    width: 100%;
+    border-radius: 100px;
+}
+.flexible-container{
+    margin-bottom: 150px;
+    display: flex;
+}
+
+#img-fix{
+    width: 100%;
+    border-radius: 100px;
+}
+p{
+    margin-bottom: 30px;
+}
+.first-part{
+   
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.second-part{
+    
+    background:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.third-part{
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: 10px,10px,50px rebeccapu;
+}
+.new-exp{
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 4%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px blue;
+}
+#full-stack-exp{
+    border-left: 5px solid;
+    border-image:linear-gradient(45deg,blue,red);
+    border-image-slice: 1;
+
+
+}
+#baby-exp{
+    border-left: 5px dotted;
+    border-image: linear-gradient(39deg,purple,white);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
